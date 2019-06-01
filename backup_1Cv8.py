@@ -29,7 +29,6 @@ except IOError: 							# если нет, то выкинуть исключен
     print(" Файла базы (1Cv8.1CD) нет в этой папке!\n Поместите программу в папку с базой...")
 else:
 	start_time = datetime.today() # начинаем отсчёт времени today.strftime("%d.%m.%Y_%H.%M", gmtime())
-	#filename2 = "backup_" + today.strftime("%d.%m.%Y_%H.%M") + "_" + filename1
 	filename2 = input(' Введите префикс бэкапа или нажмите "ENTER":\n ')
 	if filename2 == "":
 		filename2 = "backup_" + today.strftime("%d.%m.%Y_%H.%M") + "_" + filename1
