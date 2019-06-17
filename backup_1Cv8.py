@@ -3,7 +3,7 @@ from os import remove, system, path
 import zipfile
 from clint.textui import colored # модуль для печати разными цветами
 from time import gmtime, strftime
-from shutil import copyfileobj, make_archive
+from shutil import copyfileobj
 
 today = datetime.today()
 
